@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+
+.img{
+    o
+}
