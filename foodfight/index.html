@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Party Food</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    
+    <section class="home">
+        <h1>FOOD FIGHT</h1>
+        <h2>Realize um embate entre suas comidas favoritas em uma melhor de 32!</h2>
+        <button onclick="startGame()">Iniciar</button>
+      </section>
+    
+      <section class="quiz hidden">
+        <h1>FOOD FIGHT</h1>
+        <h2>Rodada <span id="round-number">1</span></h2>
+        <h2>Escolha um oponennte:</h2>
+        <div class="options">
+          <div class="option" id="option1">Opção 1</div>
+          <div class="option" id="option2">Opção 2</div>
+        </div>
+      </section>
+      
+    
+      <section class="winner hidden">
+        <h2>Vencedor !</h2>
+        <div class="result">[Nome do Esporte]</div>
+        <button onclick="restartGame()">Reiniciar</button>
+      </section>
+    </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
+
+   
+  
